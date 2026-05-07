@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+/* Amarelo1: #febe01
+Amarelo2:#332200
+
+Preto: #111
+Cinza: #b2b2b2
+
+Font: Arial, alinhar todo o trexto ao centro
+bordas:4px */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+h2 {
+    margin: 0px;
+}
+
+span {
+    color: #febe01 ;
+}
+
+p {
+    color: #b2b2b2;
+}
+.item {
+    background-color: #111;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+a {
+    background-color: #febe01;
+    color: #332200;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
